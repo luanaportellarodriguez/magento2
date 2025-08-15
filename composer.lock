@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "09d167c2f7f677b5531241222631993f",
+    "content-hash": "e7dfcc2ef7b872a4729ba040e5e93d6e",
     "packages": [
         {
             "name": "2tvenom/cborencode",
@@ -2242,6 +2242,38 @@
                 "source": "https://github.com/jsonrainbow/json-schema/tree/6.4.2"
             },
             "time": "2025-06-03T18:27:04+00:00"
+        },
+        {
+            "name": "kommunicate/module-livechat",
+            "version": "2.0.2",
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.magento.com/archives/kommunicate/module-livechat/kommunicate-module-livechat-2.0.2.0.zip",
+                "shasum": "9cee0193164047a5cb1adf2b80640e3f3c7eddb2"
+            },
+            "require": {
+                "magento/framework": ">=103",
+                "php": ">=7.3"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Kommunicate\\Livechat\\": ""
+                }
+            },
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "kommunicate",
+                    "email": "devashish@kommunicate.io"
+                }
+            ],
+            "description": "Enhance customer engagement on your website with live chat and AI-powered chatbots. Seamlessly integrate with leading AI platforms such as OpenAI, Gemini, Anthropic, Dialogflow, and more to provide instant solutions to customer queries. Deliver a unified omnichannel experience by deploying chatbots across Web, Mobile, WhatsApp, Instagram, and other social channels."
         },
         {
             "name": "laminas/laminas-captcha",
