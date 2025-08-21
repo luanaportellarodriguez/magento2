@@ -42,7 +42,7 @@
 ############################################
 ## Adjust memory limit
 
-    php_value memory_limit 756M
+    php_value memory_limit 4G
     php_value max_execution_time 18000
 
 ############################################
@@ -66,7 +66,7 @@
 ############################################
 ## Adjust memory limit
 
-    php_value memory_limit 756M
+    php_value memory_limit 4G
     php_value max_execution_time 18000
 
 ############################################

@@ -188,7 +188,7 @@ class PhpReadinessCheck
         $warning = false;
         $error = false;
         $message = '';
-        $minimumRequiredMemoryLimit = '756M';
+        $minimumRequiredMemoryLimit = '4G';
         $recommendedForUpgradeMemoryLimit = '2G';
 
         $currentMemoryLimit = ini_get('memory_limit');
