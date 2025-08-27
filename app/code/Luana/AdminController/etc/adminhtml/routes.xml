@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:App/etc/adminhtml/routes.xsd">
+    <router id="admin">
+        <route id="luanaadmin" frontName="luanaadmin">
+            <module name="Luana_AdminController"/>
+        </route>
+    </router>
+</config>

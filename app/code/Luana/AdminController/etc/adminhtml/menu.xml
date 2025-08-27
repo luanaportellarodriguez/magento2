@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:Menu/etc/menu.xsd">
+    <menu>
+        <add id="Luana_AdminController::menu" title="Options" module="Luana_AdminController" resource="Luana_AdminController::menu" sortOrder="10"/>
+        <add id="Luana_AdminController::item" title="Item" module="Luana_AdminController" resource="Luana_AdminController::item" sortOrder="20" action="luanaadmin/item/index" parent="Luana_AdminController::menu"/>
+    </menu>
+</config>
