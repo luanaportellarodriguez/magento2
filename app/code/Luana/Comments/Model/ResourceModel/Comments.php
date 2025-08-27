@@ -1,7 +1,9 @@
 <?php
 namespace Luana\Comments\Model\ResourceModel;
 
-class Comments extends AbstractDb
+use Magento\Framework\Model\ResourceModel\Db\AbstractDb;
+
+class Comments extends \Magento\Framework\Model\ResourceModel\Db\AbstractDb
 {
     const MAIN_TABLE = 'luana_comments';
     const ID_FIELD = 'comment_id';

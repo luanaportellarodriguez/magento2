@@ -7,6 +7,9 @@ class Collection extends AbstractCollection
 {
     protected function _construct()
     {
-        $this->_init(Comments::class, \Luana\Comments\Model\ResourceModel\Comments::class);
+        $this->_init(
+            \Luana\Comments\Model\Comments::class,
+            \Luana\Comments\Model\ResourceModel\Comments::class
+        );
     }
 }
