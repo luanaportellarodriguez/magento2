@@ -1,8 +1,9 @@
 <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
     <body>
         <referenceContainer name="product.info.main">
-            <block class="Magento\Framework\View\Element\Template" name="luana.sharer" template="Luana_Sharer::share.phtml"
-                    after="product.price.tier" />
+            <block  name="luana.sharer" template="Luana_Sharer::share.phtml"
+                    after="product.price.tier"
+                    class="Luana\Sharer\Block\Sharer" />
         </referenceContainer>
     </body>
 </page>
